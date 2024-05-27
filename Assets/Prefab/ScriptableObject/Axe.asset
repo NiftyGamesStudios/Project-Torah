@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae7424a3c6a88f4fa92ba9f0ecb35c9, type: 3}
+  m_Name: Axe
+  m_EditorClassIdentifier: 
+  english_Name: Axe
+  french_Name: Hache
+  habrew_Name: "\u05D2\u05B7\u05E8\u05D6\u05B6\u05DF"
+  icon: {fileID: 21300000, guid: 5e27c9b5427d64ad786aec2661fc0ffc, type: 3}
+  english_Description: Axe uses to kill enemys and destroy destructible boxes.
+  habrew_Description: "\u05D2\u05E8\u05D6\u05DF \u05DE\u05E9\u05EA\u05DE\u05E9 \u05DB\u05D3\u05D9
+    \u05DC\u05D4\u05E8\u05D5\u05D2 \u05D0\u05D5\u05D9\u05D1\u05D9\u05DD \u05D5\u05DC\u05D4\u05E8\u05D5\u05E1
+    \u05E7\u05D5\u05E4\u05E1\u05D0\u05D5\u05EA \u05D4\u05E0\u05D9\u05EA\u05E0\u05D5\u05EA
+    \u05DC\u05D4\u05E8\u05E1."
+  french_Description: "Skip to main contentTurn off continuous scrolling Accessibility
+    help Accessibility feedback Google english to french   All Images Shopping Videos
+    Books More Tools Translate Words Typing WordReference Dictionary Free Reverso
+    Sentences DeepL SafeSearch About 7,530,000,000 results (0.31 seconds)  English
+    French Axe uses to kill enemys and destroy destructible boxes.   Axe utilise
+    pour tuer les ennemis et d\xE9truire les bo\xEEtes destructibles.  Open in Google
+    Translate \u2022 Feedback People also ask What is French for a girl? What translator
+    is 100% accurate? What does ABC mean in French? What does Le meme mean in French?
+    Feedback  Google Translate  Google Translate https://translate.google.com Google's
+    service, offered free of charge, instantly translates words, phrases, and web
+    pages between English and over 100 other languages.  DeepL Translate: The world's
+    most accurate translator  DeepL Translate https://www.deepl.com \u203A translator
+    Millions translate with DeepL every day. Popular: Spanish to English, French
+    to English, and Japanese to English. Select source language.  French \u2194 English
+    Translator with EXAMPLES  Collins Dictionary https://www.collinsdictionary.com
+    \u203A translator FREE Translations with Audio. French to English, English to
+    French, to Spanish, to German, and many other languages. Example sentences, synonyms
+    and various ... \u200ELearning French \xB7 \u200ESalut! Meeting and greeting
+    in... \xB7 \u200EQuiz  WordReference.com: English to French, Italian, German
+    ...  WordReference.com https://www.wordreference.com Free online dictionaries
+    - Spanish, French, Italian, German and more. Conjugations, audio pronunciations
+    and forums for your questions.  FREE Online English to French Translator.  Lingvanex
+    https://lingvanex.com \u203A translation \u203A english-to-french Need an French
+    translation? Let's do it! Lingvanex free service instantly translates words,
+    phrases to voice, audio files, podcast, documents, and web pages ...  Reverso
+    | Free translation, dictionary  Reverso https://www.reverso.net \u203A text-translation
+    Reverso's free online translation service that translates your texts between
+    English and French, Spanish, Italian, German, Russian, Portuguese, Hebrew, ... 
+    Instant AI-powered translation from English to French  DeepL Translate https://www.deepl.com
+    \u203A translator-mobile Experience the most accurate text and file translations
+    like never before. Millions translate from English to French with DeepL every
+    day. Try it now!  English to French Translator  Translate.com https://www.translate.com
+    \u203A Language Pairs English-to-French translation is made accessible with Translate.com.
+    Accurate translations for words, phrases, and texts online. Fast, accurate, and
+    free.  Translate from English to French - Cambridge Dictionary  Cambridge Dictionary
+    https://dictionary.cambridge.org \u203A dictionary \u203A english-... Using one
+    of our 22 bilingual dictionaries, translate your word from English to French. 
+    Collins French Dictionary | Translations, Definitions and ...  Collins Dictionary
+    https://www.collinsdictionary.com \u203A english-french 4 days ago \u2014 The
+    official Collins English-French Dictionary online. Over 100000 French translations
+    of English words and phrases. \u200EFrench to English \xB7 \u200EFrench Pronunciation
+    Guide \xB7 \u200EEnglish translation of 'devenir' \xB7 \u200EOld Related searches
+    english to french free english to spanish google translate english to french
+    translate to english english to german english to french translation with pronunciation
+    english to french typing wordreference english to french More results "
+  count: 0
+  isUsable: 0
+  itemAction:
+    m_PersistentCalls:
+      m_Calls: []
+  itemPos: {x: 0, y: 0, z: 0}

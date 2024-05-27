@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae7424a3c6a88f4fa92ba9f0ecb35c9, type: 3}
+  m_Name: Bereishit
+  m_EditorClassIdentifier: 
+  english_Name: Bereishit
+  french_Name: Bereishit
+  habrew_Name: "\u05D1\u05E8\u05D0\u05E9\u05D9\u05EA"
+  icon: {fileID: 21300000, guid: dea714044f520604398713084882afe7, type: 3}
+  english_Description: The creation of the world and the early history of the Jewish
+    nation, including the stories of Adam and Eve, Noah, Abraham and Sarah, and Joseph.
+  habrew_Description: "La cr\xE9ation du monde et les d\xE9buts de l'histoire de
+    la nation juive, y compris les histoires d'Adam et \xC8ve, de No\xE9, d'Abraham
+    et de Sarah et de Joseph."
+  french_Description: "\u05D1\u05E8\u05D9\u05D0\u05EA \u05D4\u05E2\u05D5\u05DC\u05DD
+    \u05D5\u05D4\u05D4\u05D9\u05E1\u05D8\u05D5\u05E8\u05D9\u05D4 \u05D4\u05DE\u05D5\u05E7\u05D3\u05DE\u05EA
+    \u05E9\u05DC \u05D4\u05E2\u05DD \u05D4\u05D9\u05D4\u05D5\u05D3\u05D9, \u05DB\u05D5\u05DC\u05DC
+    \u05E1\u05D9\u05E4\u05D5\u05E8\u05D9 \u05D0\u05D3\u05DD \u05D5\u05D7\u05D5\u05D4,
+    \u05E0\u05D7, \u05D0\u05D1\u05E8\u05D4\u05DD \u05D5\u05E9\u05E8\u05D4 \u05D5\u05D9\u05D5\u05E1\u05E3."
+  count: 0
+  isUsable: 0
+  itemAction:
+    m_PersistentCalls:
+      m_Calls: []
+  itemPos: {x: 0, y: 0, z: 0}

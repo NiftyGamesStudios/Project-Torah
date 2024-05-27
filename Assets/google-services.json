@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "965309978538",
+    "project_id": "my-torah-kid",
+    "storage_bucket": "my-torah-kid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:965309978538:android:e9d75c184e51e4994b7dd3",
+        "android_client_info": {
+          "package_name": "com.FluxentInc.MyTorahKid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwdRlqvRGpt_fZd5Ot7zYE-puxEU5abFU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

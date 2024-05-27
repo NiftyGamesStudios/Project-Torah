@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae7424a3c6a88f4fa92ba9f0ecb35c9, type: 3}
+  m_Name: HolyArk
+  m_EditorClassIdentifier: 
+  english_Name: Holy Ark
+  french_Name: "Arche sacr\xE9e"
+  habrew_Name: "\u05D0\u05E8\u05D5\u05DF \u05E7\u05D5\u05D3\u05E9"
+  icon: {fileID: 21300000, guid: d4e16f2be66c4504eaf99088881d97b1, type: 3}
+  english_Description: Can push back enemies / can open a river
+  habrew_Description: "\u05D9\u05DB\u05D5\u05DC \u05DC\u05D4\u05D3\u05D5\u05E3 \u05D0\u05D5\u05D9\u05D1\u05D9\u05DD
+    / \u05D9\u05DB\u05D5\u05DC \u05DC\u05E4\u05EA\u05D5\u05D7 \u05E0\u05D4\u05E8"
+  french_Description: "Peut repousser les ennemis / peut ouvrir une rivi\xE8re"
+  count: 0
+  isUsable: 0
+  itemAction:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: HolyArk, Assembly-CSharp
+        m_MethodName: PlaceArk
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: UnityEngine.AudioSource, UnityEngine
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  itemPos: {x: 0, y: 0, z: 0}
