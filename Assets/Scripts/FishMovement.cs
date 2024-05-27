@@ -1,4 +1,3 @@
-using UnityEditor.Build.Content;
 using UnityEngine;
 
 public enum FishType
@@ -70,7 +69,7 @@ public class FishMovement : MonoBehaviour
     {
         // Check if player is near
         //float blastDistance = 2f; // Adjust as needed
-        Debug.Log(this.gameObject.name+" Distance : " + Vector3.Distance(transform.position, player.transform.position));
+     
         if (Vector3.Distance(transform.position, player.transform.position) <= contactDistance)
         {
             // Perform blast action
@@ -83,8 +82,6 @@ public class FishMovement : MonoBehaviour
                 isParticleSpawned=false;
                 gameObject.SetActive(false);
             }
-            
-
         }
     }
    

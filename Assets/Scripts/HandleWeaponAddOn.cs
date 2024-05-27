@@ -25,10 +25,8 @@ public class HandleWeaponAddOn : CharacterHandleWeapon
             {
                 weaponsInventory[i].isUsable = true;
                 weaponsInventory[i].itemAction.AddListener(()=> HoldWeapon(i));
-            }
-              
-        }
-           
+            }              
+        }           
     }
 
     public void HoldWeapon(int index)

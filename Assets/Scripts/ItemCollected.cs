@@ -13,7 +13,9 @@ public class ItemCollected : MonoBehaviour
     public void Collect()
     {
         inventory.AddItem(itemIndex);
-        itemGameObject.SetActive(false);    
+        ItemCollectionPopupEffect.Instance.PopMenu(item);
+        if(itemGameObject != null)
+         itemGameObject.SetActive(false);    
         sound.Play();
     }
 }

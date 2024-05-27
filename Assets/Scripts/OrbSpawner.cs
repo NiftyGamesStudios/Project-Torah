@@ -6,7 +6,9 @@ public class OrbSpawner : MonoBehaviour
 {
     public GameObject orbPrefab;
 
-    public float spawnInterval = 3f;
+    public float minSpawnInterval = 3f;
+    public float maxSpawnInterval = 3f;
+
     public float orbSpeed = 5f;
     public float destroyDistance = 5f; // Distance from ground to destroy orb
     public ParticleSystem blastParticleSystem;
@@ -15,13 +17,18 @@ public class OrbSpawner : MonoBehaviour
 
     public MMFeedbacks orbSpawningFeedback;
 
-    void Update()
+    void Start()
     {
-        timeSinceLastSpawn += Time.deltaTime;
-        if (timeSinceLastSpawn >= spawnInterval)
+        StartCoroutine(SpawnOrbs());
+    }
+
+    private IEnumerator SpawnOrbs()
+    {
+        while (true)
         {
+            float spawnInterval = Random.Range(minSpawnInterval, maxSpawnInterval);
+            yield return new WaitForSeconds(spawnInterval);
             SpawnAndMoveOrb();
-            timeSinceLastSpawn = 0f;
         }
     }
 
@@ -49,7 +56,4 @@ public class OrbSpawner : MonoBehaviour
             Destroy(ps, 2);
         }
     }
-
 }
-
-

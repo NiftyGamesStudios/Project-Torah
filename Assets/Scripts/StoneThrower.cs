@@ -69,6 +69,6 @@ public class StoneThrower : MonoBehaviour
         DOTween.Sequence()
             .AppendInterval(fadeOutDelay)
             .Append(stone.transform.DOScale(0, fadeOutDuration))
-            .OnComplete(() => Destroy(stone.gameObject));
+            .OnComplete(() => stone.gameObject.SetActive(false));
     }
 }
